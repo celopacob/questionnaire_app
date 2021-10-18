@@ -240,8 +240,9 @@ This will return a summary list of all questionnaire answers submited
 ```
 http://localhost:8000/questionaire/total-answers-csv/ (GET)
 
-This will return a CSV file with one line, containing the total number of answers submited to the form, 
-and the total count and percentage of the total answers for each Stream Service saved on the database
+This will return a CSV file with one line, containing the total number of answers
+submited to the form, and the total count and percentage of the total answers for 
+each Stream Service saved on the database.
 ```
 
 ```
