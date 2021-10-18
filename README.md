@@ -8,10 +8,6 @@ Questionnaire APP is a simple App to acquire users data and some questionnaire a
 - Linux or Mac
 
 ## Getting the project up and running
-- To get the project:
-    ```
-    Unzip the contents
-    ```
 - To enter the project:
     ```
     cd questionnaire_app
@@ -63,7 +59,7 @@ Questionnaire APP is a simple App to acquire users data and some questionnaire a
 - There's also all the proposed options for stream services
 
 ## Testing
-- I wrote a few tests (really few) for the time being, but I hope they are considered, hehe.
+- I wrote a few tests (really few) for the time being, just to put them to work.
 
 - To run tests, just execute:
 ```
@@ -244,7 +240,8 @@ This will return a summary list of all questionnaire answers submited
 ```
 http://localhost:8000/questionaire/total-answers-csv/ (GET)
 
-This will return a CSV file with one line, containing the total number of answers submited to the form, and the total count and percentage of the total answers for each Stream Service saved on the database
+This will return a CSV file with one line, containing the total number of answers submited to the form, 
+and the total count and percentage of the total answers for each Stream Service saved on the database
 ```
 
 ```
